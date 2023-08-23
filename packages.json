@@ -1,0 +1,51 @@
+{
+	"packages": [
+		[
+			{
+				"name": "heroku-sys/ext-tidy",
+				"version": "8.1.22",
+				"type": "heroku-sys-php-extension",
+				"require": {
+					"php": "^7.4 || ^8",
+					"heroku/installer-plugin": "^1.2.0"
+				},
+				"dist": {
+					"type": "heroku-sys-tar",
+					"url": "https://keyhires-piecyfer.s3.us-east-2.amazonaws.com/libs/ext-tidy-8.1.22_php-8.1.tar.gz"
+				},
+				"time": "2021-08-26"
+			},
+			{
+				"name": "heroku-sys/ext-sqlsrv",
+				"version": "5.10.0",
+				"type": "heroku-sys-php-extension",
+				"require": {
+					"php": "^7.4 || ^8",
+					"heroku/installer-plugin": "^1.2.0"
+				},
+				"dist": {
+					"type": "heroku-sys-tar",
+					"url": "https://github.com/heroku-softtrends/mssql-server-drivers-for-php/raw/main/5.10.0/ubuntu/20.04/php/8.1/nts/ext-sqlsrv-5.10.0_php-8.1.tar.gz"
+				},
+				"time": "2021-08-26"
+			},
+			{
+				"name": "heroku-sys/ext-pdo_sqlsrv",
+				"version": "5.10.0",
+				"type": "heroku-sys-php-extension",
+				"require": {
+					"php": "^7.4 || ^8",
+					"heroku/installer-plugin": "^1.2.0"
+				},
+				"dist": {
+					"type": "heroku-sys-tar",
+					"url": "https://github.com/heroku-softtrends/mssql-server-drivers-for-php/raw/main/5.10.0/ubuntu/20.04/php/8.1/nts/ext-pdo_sqlsrv-5.10.0_php-8.1.tar.gz"
+				},
+				"time": "2021-08-26"
+			}
+		]
+	]
+}
+
+
+			
